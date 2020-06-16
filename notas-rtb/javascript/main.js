@@ -34,7 +34,7 @@
         content.classList.add("animate__animated");
 
         setTimeout(function () {          //timer
-        location.href = "/notas-rtb";
+        location.href = "/index.html";
       },700);
 
         return false;
