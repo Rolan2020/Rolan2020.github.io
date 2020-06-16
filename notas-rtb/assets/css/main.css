@@ -1,0 +1,171 @@
+
+/*
+Paleta de colores:
+Rojo oscuro: #6B0C22
+Rojo vivo: #D9042B
+Moztasa claro: #F4CB89
+Aquia: #588C8C
+Azul opaco: #011C26
+
+*/
+html{
+  font-family: 'Hind', sans-serif;
+}
+a{
+  text-decoration: none;
+  color: #de6161;
+}
+
+a:hover{
+  opacity: 0.5;
+}
+
+img{
+  max-width: 100%;      /*maximo del ancho q una img puede ocupar*/
+}
+
+
+.title{
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.container{
+background: #de6161;  /* fallback for old browsers. es un color solido, en caso de q se vea en un equipo q no entienda degradados*/
+background: -webkit-linear-gradient(to right, #2657eb, #de6161);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2657eb, #de6161); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.content{
+  max-width: 960px;
+  max-height: 500px;    /*dimenciones maximas del elemento*/
+  width: 100%;
+  height: 80vh;
+  /*se estira al maximo sin romper los maximos*/
+  background-color: white;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.16);
+  border-radius: 4px;
+  position: relative;
+  padding: 1.8em;
+
+  overflow: scroll;  /*esta prop. define como se comporta el contenido q se sale de las dimensiones del elemento*/
+}
+
+.actions{
+  position: absolute;
+  top: 1em;
+  right: 1em;
+}
+
+.close{
+  height: 40px;
+  width: 40px;
+  color: white;
+  border-radius: 50%;
+  background-color: #2657eb;
+  display: inline-block;  /*el display esta "inline" por defecto y esto ignora las dimenciones */
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.16);
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* las ultimas 3 pripiedades son la razon del porque puse la X dentro del elemento <span> */
+}
+
+.paragraph{
+  line-height: 1em;
+  font-weight: 600;
+}
+
+.table{
+  width: 100%;
+  border-spacing: 0px;
+}
+.table td, .table th {
+  padding: 10px;
+  text-align: left;
+}
+
+.table tr:nth-child(even){background-color: #588C8C;}
+
+.title-item{
+  /* border-bottom-style: solid;
+  border-width: 2px;
+  border-color: #de6161; */
+  font-size: 2em;
+  border-bottom: solid 2px #de6161;
+  padding-bottom: 1em;
+}
+
+.address{
+  font-weight: bold;
+  color: #588C8C;
+  font-size: 1.2em;
+  margin-top: 2em;
+  display: inline-block; /*por defecto estan inline e ignoran el margen*/
+}
+
+.main-image{
+  float: left;    /*texto fluya hacia la derecha de la iamgen*/
+  margin-right: 1em;    /*separa iamgen de texto*/
+  height: 300px;
+}
+
+.fa-star{color: #ffc400;}
+
+td{
+  border:solid 1px;
+}
+
+.position{
+  background-color: #2657eb;
+  color: white;
+  padding: 0.5em;
+  border-radius: 4px;
+  margin-right: 0.5em;
+}
+
+@media (min-height:550px){
+  .content{
+    height: 500px
+  }
+
+}
+@media (max-width:600px){
+  .content{
+    padding: 1em;
+  }
+  td{
+    display: block;        /*transformar las filas en columnas (romper tablas)*/
+  }
+  td:nth-of-type(1){      /*selecciona el Nº del tipo*/
+    font-size: 1.5em;        /* tamañao*/
+    font-weight: bold;      /*negrita*/
+    color: #D9042B;
+  }
+  th{
+    display: none;    /*oculta los encabezados*/
+
+  }
+}
+
+/*
+.red{
+  height: 200px;    ALTO
+  width: 100px;    ANCHO
+  background-color: red;  COLOR
+}
+
+#boton-pago{
+  background-color: yellow;
+}
+
+td{
+    border:solid 2px;
+  }
+*/
