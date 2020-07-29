@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Macro transferencias runner suite","Transferencia a mi cuenta","IGNORED","2020-06-24T16:13:19.347-03:00[America/Buenos_Aires]","0.0","0.57"
+"Macro transferencias runner suite","Transferencia","SUCCESS","2020-06-24T16:13:19.823-03:00[America/Buenos_Aires]","0.0","49.53"
+"Macro transferencias runner suite","T1  transferencia","ERROR","2020-07-24T15:41:35.279-03:00[America/Buenos_Aires]","0.0","97.64"
+"Macro transferencias runner suite","T2  transferencia a mi cuenta","ERROR","2020-07-24T15:41:36.497-03:00[America/Buenos_Aires]","0.0","20.89"

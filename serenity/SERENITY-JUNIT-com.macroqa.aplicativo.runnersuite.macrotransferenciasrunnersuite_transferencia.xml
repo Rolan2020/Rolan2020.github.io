@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="com.MacroQA.aplicativo.runnerSuite.MacroTransferenciasRunnerSuite" skipped="1" tests="2" time="57.37" timestamp="2020-06-24T16:11:57.607-03:00[America/Buenos_Aires]"><testcase classname="com.MacroQA.aplicativo.runnerSuite.MacroTransferenciasRunnerSuite" name="Transferencia"><error message="The following error occurred: The following error occurred: Timed out after 10 seconds. Element not available&#10;Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'&#10;System info: host: 'N-150', ip: '10.1.50.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'&#10;Driver info: driver.version: unknown&#10;Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'&#10;System info: host: 'N-150', ip: '10.1.50.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'&#10;Driver info: driver.version: unknown&#10;Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'&#10;System info: host: 'N-150', ip: '10.1.50.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.ElementNotVisibleException">The following error occurred: The following error occurred: Timed out after 10 seconds. Element not available
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'N-150', ip: '10.1.50.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'N-150', ip: '10.1.50.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'N-150', ip: '10.1.50.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown</error><system-err>The following error occurred: The following error occurred: Timed out after 10 seconds. Element not available
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'N-150', ip: '10.1.50.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'N-150', ip: '10.1.50.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'N-150', ip: '10.1.50.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown&#13;
+com.MacroQA.aplicativo.pageObject.MacroPageObject.moveAndClick(MacroPageObject.java:200)&#13;
+com.MacroQA.aplicativo.pageObject.MacDashTransferenciasPageObject.comboTransferencias(MacDashTransferenciasPageObject.java:64)&#13;
+com.MacroQA.aplicativo.steps.MacDashTransferenciaStep.inspeccionarTransferencias(MacDashTransferenciaStep.java:22)&#13;
+com.MacroQA.aplicativo.runnerSuite.MacroTransferenciasRunnerSuite.Transferencia(MacroTransferenciasRunnerSuite.java:35)&#13;
+org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)&#13;
+org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:542)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:770)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)&#13;
+</system-err></testcase><testcase classname="com.MacroQA.aplicativo.runnerSuite.MacroTransferenciasRunnerSuite" name="Transferencia a mi cuenta"><skipped/></testcase></testsuite>

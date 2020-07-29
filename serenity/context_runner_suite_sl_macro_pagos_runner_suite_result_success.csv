@@ -1,0 +1,8 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Macro pagos runner suite","Pago minimol de tarjeta","SUCCESS","2020-05-26T16:04:23.04-03:00[America/Buenos_Aires]","0.0","65.19"
+"Macro pagos runner suite","Pago total de tarjeta cancelado","SUCCESS","2020-06-19T16:14:29.093-03:00[America/Buenos_Aires]","0.0","67.42"
+"Macro pagos runner suite","Pago minimo de tarjeta cancelado","SUCCESS","2020-06-19T16:14:29.434-03:00[America/Buenos_Aires]","0.0","78.35"
+"Macro pagos runner suite","T3 pago targeta con otro importe","SUCCESS","2020-06-19T16:28:04.284-03:00[America/Buenos_Aires]","0.0","60.35"
+"Macro pagos runner suite","T1 pagos","SUCCESS","2020-07-23T15:07:37.715-03:00[America/Buenos_Aires]","0.0","68.71"
+"Macro pagos runner suite","T2 pago targeta con otro importe","SUCCESS","2020-07-23T15:07:38.285-03:00[America/Buenos_Aires]","0.0","92.72"
+"Macro pagos runner suite","T3 pago targeta con otro importe candelado","SUCCESS","2020-07-23T15:07:38.469-03:00[America/Buenos_Aires]","0.0","82.64"

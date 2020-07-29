@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Macro inversiones runner suite","Test compra venta dolares","ERROR","2020-05-18T14:19:34.103-03:00[America/Buenos_Aires]","0.0","213.25"
+"Macro inversiones runner suite","Test nuestro fondos FCI","ERROR","2020-05-18T14:19:34.41-03:00[America/Buenos_Aires]","0.0","205.82"
+"Macro inversiones runner suite","Test constitucion plazos fijos","ERROR","2020-05-18T14:19:34.575-03:00[America/Buenos_Aires]","0.0","196.31"
+"Macro inversiones runner suite","Test consulta tasas fijas","ERROR","2020-05-18T14:19:34.742-03:00[America/Buenos_Aires]","0.0","196.29"
